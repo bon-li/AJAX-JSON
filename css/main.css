@@ -1,0 +1,117 @@
+/* Style for header section */
+.heading-section {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3%;
+    margin-bottom:3%;
+    text-align: center;
+    color: rgba(255, 170, 170);
+    font-size: 80%;
+    font-style: italic;
+}
+
+/* Style for entire body */
+body {
+    display: block;
+    justify-content: center;
+    position: relative;
+
+}
+
+/* Body and background image  */
+.main {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+      
+}
+
+.container {
+    justify-content: center;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(85, 64, 159, 0.5);
+}
+
+/* Content flex area */
+.flexArea {
+    display: flex;
+}
+
+.flex1 {
+    flex: 2;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.flex2 {
+    flex:2;
+    text-align: center;
+}
+
+.link {
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planetBody {
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255 ,255, 255, 0.5); 
+}
+
+li {
+    margin-bottom: 2%;
+}
+
+/* Footer stylization */
+footer{
+    padding-top: 2%;
+    text-align: center;
+    font-style: italic;
+    font-size: 80%;
+    color:#FFBDAA;
+} 
+
+/* Screen orientation */
+@media (orientation: portrait) {
+
+    body {
+        margin: 0;
+    }
+    .planetBody {
+        width: 60%;
+        padding-left: 5%; 
+    }
+}
+
+@media (orientation: landscape) {
+
+    body {
+        margin: 0;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    .planetBody {
+        width: 60%;
+
+    }
+
+    
+}
